@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 
 const Wrapper = styled.div`
   padding: 10px;
-  color: blue;
+  color: red;
 `;
 
 export interface ImportedComponentProps {
@@ -11,5 +11,5 @@ export interface ImportedComponentProps {
 }
 
 export const ImportedComponent: React.FC<ImportedComponentProps> = ({ text }) => (
-  <Wrapper>{text ? text : 'Imported Component'}</Wrapper>
+  <Wrapper>{text ? text : 'Revised Imported Component'}</Wrapper>
 );
