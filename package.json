@@ -1,0 +1,11 @@
+{
+  "name": "@samayer12/npm-package-demo",
+  "version": "0.0.2",
+  "description": "A demo on how to publish and use npm packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --silent"
+  },
+  "author": "Sam Mayer",
+  "license": "ISC"
+}
